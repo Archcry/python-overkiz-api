@@ -83,4 +83,10 @@ SUPPORTED_SERVERS: dict[str, OverkizServer] = {
         manufacturer="Somfy",
         configuration_url=None,
     ),
+    "somfy_local": OverkizServer(
+        name="Somfy (Local)",
+        endpoint="http://192.168.33.34/enduser-mobile-web/1/enduserAPI/",
+        manufacturer="Somfy",
+        configuration_url=None,
+    )
 }
